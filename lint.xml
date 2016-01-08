@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<lint>
-    <issue id="MissingTranslation" severity="ignore" />
-    <issue id="OldTargetApi" severity="ignore" />
-    <issue id="UnusedResources">
-        <ignore path="res/values/dimens.xml" />
-    </issue>
-</lint>

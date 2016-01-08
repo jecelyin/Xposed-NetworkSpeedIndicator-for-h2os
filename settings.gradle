@@ -1,0 +1,3 @@
+include ':multiSelectListPreferenceCompat'
+include ':androidColorPickerPreference'
+include ':networkSpeedIndicator'

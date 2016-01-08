@@ -1,0 +1,424 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From MultiSelectListPreferenceCompat:
+* .gitignore
+From NetworkSpeedIndicator:
+* .gitattributes
+* .gitignore
+* .gitmodules
+* .idea/
+* .idea/.name
+* .idea/Xposed-NetworkSpeedIndicator-for-h2os.iml
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* README.md
+* android-ColorPickerPreference/
+* android-ColorPickerPreference/.git/
+* android-ColorPickerPreference/.git/HEAD
+* android-ColorPickerPreference/.git/config
+* android-ColorPickerPreference/.git/description
+* android-ColorPickerPreference/.git/hooks/
+* android-ColorPickerPreference/.git/hooks/applypatch-msg.sample
+* android-ColorPickerPreference/.git/hooks/commit-msg.sample
+* android-ColorPickerPreference/.git/hooks/post-update.sample
+* android-ColorPickerPreference/.git/hooks/pre-applypatch.sample
+* android-ColorPickerPreference/.git/hooks/pre-commit.sample
+* android-ColorPickerPreference/.git/hooks/pre-push.sample
+* android-ColorPickerPreference/.git/hooks/pre-rebase.sample
+* android-ColorPickerPreference/.git/hooks/prepare-commit-msg.sample
+* android-ColorPickerPreference/.git/hooks/update.sample
+* android-ColorPickerPreference/.git/index
+* android-ColorPickerPreference/.git/info/
+* android-ColorPickerPreference/.git/info/exclude
+* android-ColorPickerPreference/.git/logs/
+* android-ColorPickerPreference/.git/logs/HEAD
+* android-ColorPickerPreference/.git/logs/refs/
+* android-ColorPickerPreference/.git/logs/refs/heads/
+* android-ColorPickerPreference/.git/logs/refs/heads/master
+* android-ColorPickerPreference/.git/logs/refs/remotes/
+* android-ColorPickerPreference/.git/logs/refs/remotes/origin/
+* android-ColorPickerPreference/.git/logs/refs/remotes/origin/HEAD
+* android-ColorPickerPreference/.git/objects/
+* android-ColorPickerPreference/.git/objects/pack/
+* android-ColorPickerPreference/.git/objects/pack/pack-00b6e3642f5c5220221d87cb48263f151b22c7a3.idx
+* android-ColorPickerPreference/.git/objects/pack/pack-00b6e3642f5c5220221d87cb48263f151b22c7a3.pack
+* android-ColorPickerPreference/.git/packed-refs
+* android-ColorPickerPreference/.git/refs/
+* android-ColorPickerPreference/.git/refs/heads/
+* android-ColorPickerPreference/.git/refs/heads/master
+* android-ColorPickerPreference/.git/refs/remotes/
+* android-ColorPickerPreference/.git/refs/remotes/origin/
+* android-ColorPickerPreference/.git/refs/remotes/origin/HEAD
+* android-ColorPickerPreference/.gitattributes
+* android-ColorPickerPreference/.gitignore
+* android-ColorPickerPreference/CHANGELOG.rst
+* android-ColorPickerPreference/ColorPickerPreference.iml
+* android-ColorPickerPreference/ColorPickerPreference/
+* android-ColorPickerPreference/ColorPickerPreference/.gitignore
+* android-ColorPickerPreference/ColorPickerPreference/ColorPickerPreference-ColorPickerPreference.iml
+* android-ColorPickerPreference/ColorPickerPreference/ColorPickerPreference.iml
+* android-ColorPickerPreference/ColorPickerPreference/build.gradle
+* android-ColorPickerPreference/ColorPickerPreference/proguard-rules.pro
+* android-ColorPickerPreference/ColorPickerPreference/src/
+* android-ColorPickerPreference/ColorPickerPreference/src/androidTest/
+* android-ColorPickerPreference/ColorPickerPreference/src/androidTest/java/
+* android-ColorPickerPreference/ColorPickerPreference/src/androidTest/java/net/
+* android-ColorPickerPreference/ColorPickerPreference/src/androidTest/java/net/margaritov/
+* android-ColorPickerPreference/ColorPickerPreference/src/androidTest/java/net/margaritov/colorpickerpreference/
+* android-ColorPickerPreference/ColorPickerPreference/src/androidTest/java/net/margaritov/colorpickerpreference/ApplicationTest.java
+* android-ColorPickerPreference/ColorPickerPreference/src/main/
+* android-ColorPickerPreference/ColorPickerPreference/src/main/AndroidManifest.xml
+* android-ColorPickerPreference/ColorPickerPreference/src/main/java/
+* android-ColorPickerPreference/ColorPickerPreference/src/main/java/net/
+* android-ColorPickerPreference/ColorPickerPreference/src/main/java/net/margaritov/
+* android-ColorPickerPreference/ColorPickerPreference/src/main/java/net/margaritov/preference/
+* android-ColorPickerPreference/ColorPickerPreference/src/main/java/net/margaritov/preference/colorpicker/
+* android-ColorPickerPreference/ColorPickerPreference/src/main/java/net/margaritov/preference/colorpicker/AlphaPatternDrawable.java
+* android-ColorPickerPreference/ColorPickerPreference/src/main/java/net/margaritov/preference/colorpicker/ColorPickerDialog.java
+* android-ColorPickerPreference/ColorPickerPreference/src/main/java/net/margaritov/preference/colorpicker/ColorPickerPanelView.java
+* android-ColorPickerPreference/ColorPickerPreference/src/main/java/net/margaritov/preference/colorpicker/ColorPickerPreference.java
+* android-ColorPickerPreference/ColorPickerPreference/src/main/java/net/margaritov/preference/colorpicker/ColorPickerView.java
+* android-ColorPickerPreference/ColorPickerPreference/src/main/res/
+* android-ColorPickerPreference/ColorPickerPreference/src/main/res/layout-land/
+* android-ColorPickerPreference/ColorPickerPreference/src/main/res/layout-land/dialog_color_picker.xml
+* android-ColorPickerPreference/ColorPickerPreference/src/main/res/layout/
+* android-ColorPickerPreference/ColorPickerPreference/src/main/res/layout/dialog_color_picker.xml
+* android-ColorPickerPreference/ColorPickerPreference/src/main/res/values/
+* android-ColorPickerPreference/ColorPickerPreference/src/main/res/values/strings.xml
+* android-ColorPickerPreference/LICENSE
+* android-ColorPickerPreference/README.rst
+* android-ColorPickerPreference/Sample/
+* android-ColorPickerPreference/Sample/build.gradle
+* android-ColorPickerPreference/Sample/src/
+* android-ColorPickerPreference/Sample/src/main/
+* android-ColorPickerPreference/Sample/src/main/AndroidManifest.xml
+* android-ColorPickerPreference/Sample/src/main/java/
+* android-ColorPickerPreference/Sample/src/main/java/net/
+* android-ColorPickerPreference/Sample/src/main/java/net/margaritov/
+* android-ColorPickerPreference/Sample/src/main/java/net/margaritov/preference/
+* android-ColorPickerPreference/Sample/src/main/java/net/margaritov/preference/colorpicker/
+* android-ColorPickerPreference/Sample/src/main/java/net/margaritov/preference/colorpicker/Test.java
+* android-ColorPickerPreference/Sample/src/main/res/
+* android-ColorPickerPreference/Sample/src/main/res/drawable-hdpi/
+* android-ColorPickerPreference/Sample/src/main/res/drawable-hdpi/icon.png
+* android-ColorPickerPreference/Sample/src/main/res/drawable-ldpi/
+* android-ColorPickerPreference/Sample/src/main/res/drawable-ldpi/icon.png
+* android-ColorPickerPreference/Sample/src/main/res/drawable-mdpi/
+* android-ColorPickerPreference/Sample/src/main/res/drawable-mdpi/icon.png
+* android-ColorPickerPreference/Sample/src/main/res/values/
+* android-ColorPickerPreference/Sample/src/main/res/values/integer.xml
+* android-ColorPickerPreference/Sample/src/main/res/values/strings.xml
+* android-ColorPickerPreference/Sample/src/main/res/xml/
+* android-ColorPickerPreference/Sample/src/main/res/xml/settings.xml
+* android-ColorPickerPreference/android-ColorPickerPreference.iml
+* android-ColorPickerPreference/build.gradle
+* android-ColorPickerPreference/gradle.properties
+* android-ColorPickerPreference/gradle/
+* android-ColorPickerPreference/gradle/wrapper/
+* android-ColorPickerPreference/gradle/wrapper/gradle-wrapper.jar
+* android-ColorPickerPreference/gradle/wrapper/gradle-wrapper.properties
+* android-ColorPickerPreference/gradlew
+* android-ColorPickerPreference/gradlew.bat
+* android-ColorPickerPreference/screen_1.png
+* android-ColorPickerPreference/screen_2.png
+* android-ColorPickerPreference/settings.gradle
+* build.xml
+* ic_launcher-web.png
+* lib/
+* lib/XposedBridgeApi-54.jar
+* mulsellistprefcompat/
+* mulsellistprefcompat/.git/
+* mulsellistprefcompat/.git/HEAD
+* mulsellistprefcompat/.git/config
+* mulsellistprefcompat/.git/description
+* mulsellistprefcompat/.git/hooks/
+* mulsellistprefcompat/.git/hooks/applypatch-msg.sample
+* mulsellistprefcompat/.git/hooks/commit-msg.sample
+* mulsellistprefcompat/.git/hooks/post-update.sample
+* mulsellistprefcompat/.git/hooks/pre-applypatch.sample
+* mulsellistprefcompat/.git/hooks/pre-commit.sample
+* mulsellistprefcompat/.git/hooks/pre-push.sample
+* mulsellistprefcompat/.git/hooks/pre-rebase.sample
+* mulsellistprefcompat/.git/hooks/prepare-commit-msg.sample
+* mulsellistprefcompat/.git/hooks/update.sample
+* mulsellistprefcompat/.git/index
+* mulsellistprefcompat/.git/info/
+* mulsellistprefcompat/.git/info/exclude
+* mulsellistprefcompat/.git/logs/
+* mulsellistprefcompat/.git/logs/HEAD
+* mulsellistprefcompat/.git/logs/refs/
+* mulsellistprefcompat/.git/logs/refs/heads/
+* mulsellistprefcompat/.git/logs/refs/heads/master
+* mulsellistprefcompat/.git/logs/refs/remotes/
+* mulsellistprefcompat/.git/logs/refs/remotes/origin/
+* mulsellistprefcompat/.git/logs/refs/remotes/origin/HEAD
+* mulsellistprefcompat/.git/objects/
+* mulsellistprefcompat/.git/objects/pack/
+* mulsellistprefcompat/.git/objects/pack/pack-1febf9d382d71c8f3b9b0e6cc860b28b3f40bedd.idx
+* mulsellistprefcompat/.git/objects/pack/pack-1febf9d382d71c8f3b9b0e6cc860b28b3f40bedd.pack
+* mulsellistprefcompat/.git/packed-refs
+* mulsellistprefcompat/.git/refs/
+* mulsellistprefcompat/.git/refs/heads/
+* mulsellistprefcompat/.git/refs/heads/master
+* mulsellistprefcompat/.git/refs/remotes/
+* mulsellistprefcompat/.git/refs/remotes/origin/
+* mulsellistprefcompat/.git/refs/remotes/origin/HEAD
+* mulsellistprefcompat/LICENSE
+* mulsellistprefcompat/NOTICE
+* mulsellistprefcompat/README.md
+* mulsellistprefcompat/RELEASE-NOTES.md
+* mulsellistprefcompat/android-studio/
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/.gitignore
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/build.gradle
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/common/
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/common/android-maven-publish.gradle
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/common/android-set-common-properties.gradle
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/common/android-signing-utils.gradle
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/common/android-use-legacy-layout-files.gradle
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/common/bintray-upload.gradle
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/example/
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/example/.gitignore
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/example/build.gradle
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/example/proguard-rules.pro
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/gradle.properties
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/gradle/
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/gradle/wrapper/
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/gradle/wrapper/gradle-wrapper.jar
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/gradle/wrapper/gradle-wrapper.properties
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/gradlew
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/gradlew.bat
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/lib/
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/lib/.gitignore
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/lib/build.gradle
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/lib/library-data.properties
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/lib/proguard-rules.pro
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/settings.gradle
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/signing/
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/signing/.gitignore
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/signing/README
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/signing/example-signing.properties.template
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/signing/library-bintray-private.properties.template
+* mulsellistprefcompat/android-studio/MultiSelectListPreferenceCompat/signing/library-maven-publish-signing.properties.template
+* mulsellistprefcompat/example/
+* mulsellistprefcompat/example/.classpath
+* mulsellistprefcompat/example/.gitignore
+* mulsellistprefcompat/example/.project
+* mulsellistprefcompat/example/.settings/
+* mulsellistprefcompat/example/.settings/org.eclipse.jdt.core.prefs
+* mulsellistprefcompat/example/AndroidManifest.xml
+* mulsellistprefcompat/example/libs/
+* mulsellistprefcompat/example/libs/.gitignore
+* mulsellistprefcompat/example/proguard-project.txt
+* mulsellistprefcompat/example/project.properties
+* mulsellistprefcompat/example/res/
+* mulsellistprefcompat/example/res/drawable-hdpi/
+* mulsellistprefcompat/example/res/drawable-hdpi/ic_launcher.png
+* mulsellistprefcompat/example/res/drawable-mdpi/
+* mulsellistprefcompat/example/res/drawable-mdpi/ic_launcher.png
+* mulsellistprefcompat/example/res/drawable-xhdpi/
+* mulsellistprefcompat/example/res/drawable-xhdpi/ic_launcher.png
+* mulsellistprefcompat/example/res/layout/
+* mulsellistprefcompat/example/res/layout/activity_main.xml
+* mulsellistprefcompat/example/res/menu/
+* mulsellistprefcompat/example/res/menu/menu_main.xml
+* mulsellistprefcompat/example/res/values/
+* mulsellistprefcompat/example/res/values/arrays.xml
+* mulsellistprefcompat/example/res/values/strings.xml
+* mulsellistprefcompat/example/res/values/values_prefs.xml
+* mulsellistprefcompat/example/res/xml/
+* mulsellistprefcompat/example/res/xml/preferences.xml
+* mulsellistprefcompat/example/src/
+* mulsellistprefcompat/example/src/com/
+* mulsellistprefcompat/example/src/com/example/
+* mulsellistprefcompat/example/src/com/example/multiselectlistpreferencecompatexample/
+* mulsellistprefcompat/example/src/com/example/multiselectlistpreferencecompatexample/MainActivity.java
+* mulsellistprefcompat/example/src/com/example/multiselectlistpreferencecompatexample/MainPreferenceActivity.java
+* mulsellistprefcompat/example/src/com/example/multiselectlistpreferencecompatexample/Utils.java
+* mulsellistprefcompat/lib/
+* mulsellistprefcompat/lib/.classpath
+* mulsellistprefcompat/lib/.gitignore
+* mulsellistprefcompat/lib/.project
+* mulsellistprefcompat/lib/.settings/
+* mulsellistprefcompat/lib/.settings/org.eclipse.jdt.core.prefs
+* mulsellistprefcompat/lib/AndroidManifest.xml
+* mulsellistprefcompat/lib/assets/
+* mulsellistprefcompat/lib/assets/.gitignore
+* mulsellistprefcompat/lib/internal_src/
+* mulsellistprefcompat/lib/internal_src/com/
+* mulsellistprefcompat/lib/internal_src/com/h6ah4i/
+* mulsellistprefcompat/lib/internal_src/com/h6ah4i/android/
+* mulsellistprefcompat/lib/internal_src/com/h6ah4i/android/compat/
+* mulsellistprefcompat/lib/internal_src/com/h6ah4i/android/compat/content/
+* mulsellistprefcompat/lib/internal_src/com/h6ah4i/android/compat/content/EditorCompatImpl.java
+* mulsellistprefcompat/lib/internal_src/com/h6ah4i/android/compat/content/EditorCompatImplGB.java
+* mulsellistprefcompat/lib/internal_src/com/h6ah4i/android/compat/content/EditorCompatImplHoneycomb.java
+* mulsellistprefcompat/lib/internal_src/com/h6ah4i/android/compat/content/SharedPreferencesCompatImpl.java
+* mulsellistprefcompat/lib/internal_src/com/h6ah4i/android/compat/content/SharedPreferencesCompatImplGB.java
+* mulsellistprefcompat/lib/internal_src/com/h6ah4i/android/compat/content/SharedPreferencesCompatImplHoneycomb.java
+* mulsellistprefcompat/lib/internal_src/com/h6ah4i/android/compat/preference/
+* mulsellistprefcompat/lib/internal_src/com/h6ah4i/android/compat/preference/PreferenceCompatImpl.java
+* mulsellistprefcompat/lib/internal_src/com/h6ah4i/android/compat/preference/PreferenceCompatImplGB.java
+* mulsellistprefcompat/lib/internal_src/com/h6ah4i/android/compat/preference/PreferenceCompatImplHoneycomb.java
+* mulsellistprefcompat/lib/internal_src/com/h6ah4i/android/compat/utils/
+* mulsellistprefcompat/lib/internal_src/com/h6ah4i/android/compat/utils/SharedPreferencesJsonStringSetWrapperUtils.java
+* mulsellistprefcompat/lib/libs/
+* mulsellistprefcompat/lib/libs/.gitignore
+* mulsellistprefcompat/lib/proguard-project.txt
+* mulsellistprefcompat/lib/project.properties
+* mulsellistprefcompat/lib/res/
+* mulsellistprefcompat/lib/res/values/
+* mulsellistprefcompat/lib/res/values/attrs.xml
+* mulsellistprefcompat/lib/src/
+* mulsellistprefcompat/lib/src/com/
+* mulsellistprefcompat/lib/src/com/h6ah4i/
+* mulsellistprefcompat/lib/src/com/h6ah4i/android/
+* mulsellistprefcompat/lib/src/com/h6ah4i/android/compat/
+* mulsellistprefcompat/lib/src/com/h6ah4i/android/compat/content/
+* mulsellistprefcompat/lib/src/com/h6ah4i/android/compat/content/SharedPreferenceCompat.java
+* mulsellistprefcompat/lib/src/com/h6ah4i/android/compat/preference/
+* mulsellistprefcompat/lib/src/com/h6ah4i/android/compat/preference/MultiSelectListPreferenceCompat.java
+* mulsellistprefcompat/lib/src/com/h6ah4i/android/compat/preference/PreferenceCompat.java
+* proguard-project.txt
+From android-ColorPickerPreference:
+* .gitattributes
+* .gitignore
+* CHANGELOG.rst
+* ColorPickerPreference.iml
+* ColorPickerPreference/
+* ColorPickerPreference/.gitignore
+* ColorPickerPreference/ColorPickerPreference-ColorPickerPreference.iml
+* ColorPickerPreference/ColorPickerPreference.iml
+* ColorPickerPreference/build.gradle
+* ColorPickerPreference/proguard-rules.pro
+* ColorPickerPreference/src/
+* ColorPickerPreference/src/androidTest/
+* ColorPickerPreference/src/androidTest/java/
+* ColorPickerPreference/src/androidTest/java/net/
+* ColorPickerPreference/src/androidTest/java/net/margaritov/
+* ColorPickerPreference/src/androidTest/java/net/margaritov/colorpickerpreference/
+* ColorPickerPreference/src/androidTest/java/net/margaritov/colorpickerpreference/ApplicationTest.java
+* ColorPickerPreference/src/main/
+* ColorPickerPreference/src/main/AndroidManifest.xml
+* ColorPickerPreference/src/main/java/
+* ColorPickerPreference/src/main/java/net/
+* ColorPickerPreference/src/main/java/net/margaritov/
+* ColorPickerPreference/src/main/java/net/margaritov/preference/
+* ColorPickerPreference/src/main/java/net/margaritov/preference/colorpicker/
+* ColorPickerPreference/src/main/java/net/margaritov/preference/colorpicker/AlphaPatternDrawable.java
+* ColorPickerPreference/src/main/java/net/margaritov/preference/colorpicker/ColorPickerDialog.java
+* ColorPickerPreference/src/main/java/net/margaritov/preference/colorpicker/ColorPickerPanelView.java
+* ColorPickerPreference/src/main/java/net/margaritov/preference/colorpicker/ColorPickerPreference.java
+* ColorPickerPreference/src/main/java/net/margaritov/preference/colorpicker/ColorPickerView.java
+* ColorPickerPreference/src/main/res/
+* ColorPickerPreference/src/main/res/layout-land/
+* ColorPickerPreference/src/main/res/layout-land/dialog_color_picker.xml
+* ColorPickerPreference/src/main/res/layout/
+* ColorPickerPreference/src/main/res/layout/dialog_color_picker.xml
+* ColorPickerPreference/src/main/res/values/
+* ColorPickerPreference/src/main/res/values/strings.xml
+* LICENSE
+* README.rst
+* Sample/
+* Sample/build.gradle
+* Sample/src/
+* Sample/src/main/
+* Sample/src/main/AndroidManifest.xml
+* Sample/src/main/java/
+* Sample/src/main/java/net/
+* Sample/src/main/java/net/margaritov/
+* Sample/src/main/java/net/margaritov/preference/
+* Sample/src/main/java/net/margaritov/preference/colorpicker/
+* Sample/src/main/java/net/margaritov/preference/colorpicker/Test.java
+* Sample/src/main/res/
+* Sample/src/main/res/drawable-hdpi/
+* Sample/src/main/res/drawable-hdpi/icon.png
+* Sample/src/main/res/drawable-ldpi/
+* Sample/src/main/res/drawable-ldpi/icon.png
+* Sample/src/main/res/drawable-mdpi/
+* Sample/src/main/res/drawable-mdpi/icon.png
+* Sample/src/main/res/values/
+* Sample/src/main/res/values/integer.xml
+* Sample/src/main/res/values/strings.xml
+* Sample/src/main/res/xml/
+* Sample/src/main/res/xml/settings.xml
+* android-ColorPickerPreference.iml
+* build.gradle
+* gradle.properties
+* gradle/
+* gradle/wrapper/
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* screen_1.png
+* screen_2.png
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In MultiSelectListPreferenceCompat:
+* AndroidManifest.xml => multiSelectListPreferenceCompat/src/main/AndroidManifest.xml
+* assets/ => multiSelectListPreferenceCompat/src/main/assets/
+* internal_src/ => multiSelectListPreferenceCompat/src/main/java/
+* proguard-project.txt => multiSelectListPreferenceCompat/proguard-project.txt
+* res/ => multiSelectListPreferenceCompat/src/main/res/
+* src/ => multiSelectListPreferenceCompat/src/main/java/
+In NetworkSpeedIndicator:
+* AndroidManifest.xml => networkSpeedIndicator/src/main/AndroidManifest.xml
+* assets/ => networkSpeedIndicator/src/main/assets/
+* lint.xml => networkSpeedIndicator/lint.xml
+* res/ => networkSpeedIndicator/src/main/res/
+* src/ => networkSpeedIndicator/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
