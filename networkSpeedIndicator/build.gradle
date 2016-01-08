@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "tw.fatminmin.xposed.networkspeedindicator"
-        minSdkVersion 8
+        minSdkVersion 10
         targetSdkVersion 23
     }
 
@@ -21,5 +21,5 @@ android {
 dependencies {
     compile project(':androidColorPickerPreference')
     compile project(':multiSelectListPreferenceCompat')
-    compile 'com.android.support:support-v4:19.1.0'
+    compile 'com.android.support:support-v4:+'
 }
